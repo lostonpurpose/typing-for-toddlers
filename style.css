@@ -1,19 +1,24 @@
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: aquamarine;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 .main {
     width: 30%;
     height: 50%;
     margin: auto;
     background-color: white;
+    border-radius: 25px;
+    position: relative;
+    top: 100px;
 }
 .type {
     color: blue;
     text-align: center;
-    font-size: 10rem;
+    font-size: 15rem;
     height: 100%;
-    padding-top: 60px;
+    padding-top: 40px;
+    font-weight: bold;
 }
